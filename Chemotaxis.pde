@@ -1,5 +1,5 @@
 void setup(){
- size(500,500); 
+ size(400,400); 
 
    for (int i = 0; i < cars.length; i++) {
     cars[i] = new Walker((int)(Math.random()*246),(int)(Math.random()*246),(int)(Math.random()*246));
