@@ -1,5 +1,5 @@
 void setup(){
- size(1000,1000); 
+ size(500,500); 
 
    for (int i = 0; i < cars.length; i++) {
     cars[i] = new Walker((int)(Math.random()*246),(int)(Math.random()*246),(int)(Math.random()*246));
@@ -22,7 +22,7 @@ class Walker{
   //constructor
   //initialize member variables
   Walker(int c, int o, int l){
-    myX = 750;
+    myX = 250;
     myY = 250;
     myr = c;
     myg = o;
